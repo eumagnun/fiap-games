@@ -11,5 +11,5 @@
     <string name="nome_do_game">Nome do game</string>
     <string name="nome_do_console">Nome do console</string>
     <string name="nota_do_game_ex_8">Nota do game. Ex: 8</string>
-    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastrar">Adicionar</string>
 </resources>

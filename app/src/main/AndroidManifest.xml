@@ -14,20 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiapGames">
 
-        <activity android:name="br.com.danielamaral.fiapgames.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="br.com.danielamaral.fiapgames.activity.MainActivity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="br.com.danielamaral.fiapgames.CadastroActivity">
+        <activity android:name="br.com.danielamaral.fiapgames.activity.CadastroActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.danielamaral.fiapgames.ListaActivity" />
+                android:value="br.com.danielamaral.fiapgames.activity.ListaActivity" />
         </activity>
 
-        <activity android:name="br.com.danielamaral.fiapgames.ListaActivity" />
+        <activity android:name="br.com.danielamaral.fiapgames.activity.ListaActivity" />
 
 
     </application>

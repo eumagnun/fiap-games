@@ -1,4 +1,4 @@
-package br.com.danielamaral.fiapgames
+package br.com.danielamaral.fiapgames.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import br.com.danielamaral.fiapgames.R
 import br.com.danielamaral.fiapgames.model.Game
 import java.text.NumberFormat
 import java.util.*
 
-class ProdutoAdapter(contexto: Context) : ArrayAdapter<Game>(contexto, 0) {
+class GameAdapter(contexto: Context) : ArrayAdapter<Game>(contexto, 0) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 

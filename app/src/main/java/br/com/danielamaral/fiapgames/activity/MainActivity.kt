@@ -1,9 +1,10 @@
-package br.com.danielamaral.fiapgames
+package br.com.danielamaral.fiapgames.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import br.com.danielamaral.fiapgames.R
 
 class MainActivity : AppCompatActivity() {
 

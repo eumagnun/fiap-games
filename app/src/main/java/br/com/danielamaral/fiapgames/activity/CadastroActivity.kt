@@ -1,4 +1,4 @@
-package br.com.danielamaral.fiapgames
+package br.com.danielamaral.fiapgames.activity
 
 import android.app.Activity
 import android.content.Intent
@@ -6,7 +6,9 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.danielamaral.fiapgames.R
 import br.com.danielamaral.fiapgames.model.Game
+import br.com.danielamaral.fiapgames.utils.produtosGlobal
 import kotlinx.android.synthetic.main.activity_cadastro.*
 
 class CadastroActivity : AppCompatActivity() {

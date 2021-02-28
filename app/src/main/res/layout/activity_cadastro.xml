@@ -1,0 +1,50 @@
+<?xml    version="1.0"    encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.danielamaral.fiapgames.CadastroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro_game"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginBottom="15dp"	/>
+
+    <ImageView
+        android:id="@+id/img_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/sem_foto"	/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_game"
+        android:hint="@string/nome_do_game"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_console"
+        android:hint="@string/nome_do_console"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nota"
+        android:inputType="number"
+        android:hint="@string/nota_do_game_ex_8"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:id="@+id/btn_inserir"/>
+
+</LinearLayout>

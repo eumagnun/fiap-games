@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fiap Games</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="quantidade">Quantidade: 0</string>
+    <string name="plus">+</string>
+    <string name="fiap_games">FIAP GAMES</string>
+    <string name="mortal_kombat_11">Mortal Kombat 11</string>
+    <string name="ps5">PS5</string>
+    <string name="_0">0</string>
+    <string name="cadastro_game">Cadastro\tGame</string>
+    <string name="nome_do_game">Nome do game</string>
+    <string name="nome_do_console">Nome do console</string>
+    <string name="nota_do_game_ex_8">Nota do game. Ex: 8</string>
+    <string name="cadastrar">Cadastrar</string>
+</resources>
